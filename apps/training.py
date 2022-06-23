@@ -2,7 +2,7 @@ import streamlit as st
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-from keras.preprocessing.image import img_to_array
+from tensorflow.keras.utils import img_to_array
 # from keras.preprocessing.image import img_to_array
 from keras.utils import np_utils
 from lenet.nn.conv import LeNet  # local file
